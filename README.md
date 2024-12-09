@@ -17,6 +17,11 @@ Confusion Matrix of the trained model: <br>
 Our advanced recommendations use content-based filtering generated from user input data<br>
 ![WhatsApp Image 2024-12-09 at 12 17 28_e48bb743](https://github.com/user-attachments/assets/5231f9ee-13ca-4d37-b613-6bf9fdb045e4)
 
+# Saving the Model
+The trained model is stored in two formats:<br>
+1. modelstuntingrf.pkl: The model is saved in .pkl format using the joblib.dump(bagging_model, 'modelstuntingrf.pkl') function.<br>
+2. model_stunting.h5: The model is converted into H5 format using the function model.save('model_stunting.h5') <br>
+
 
 
 
