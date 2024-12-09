@@ -13,7 +13,7 @@ Confusion Matrix of the trained model: <br>
 
 
 
-#Advanced Recommendation
+# Advanced Recommendation
 Our advanced recommendations use content-based filtering generated from user input data<br>
 ![WhatsApp Image 2024-12-09 at 12 17 28_e48bb743](https://github.com/user-attachments/assets/5231f9ee-13ca-4d37-b613-6bf9fdb045e4)
 
