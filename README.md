@@ -25,5 +25,7 @@ The trained model is stored in two formats:<br>
 ( file : https://drive.google.com/file/d/1iJK2vStgPD9GcGu0cyS4dIMMzikvRYQX/view?usp=sharing )<br>
 
 
+Once the model is trained, we then connect the output classified image into a database containing information on stunting prediction. The output will then be the information gathered from the database.<br>
+
 
 
