@@ -15,7 +15,7 @@ Confusion Matrix of the trained model: <br>
 
 # Advanced Recommendation
 Our advanced recommendations use content-based filtering generated from user input data<br>
-![WhatsApp Image 2024-12-09 at 12 17 28_e48bb743](https://github.com/user-attachments/assets/5231f9ee-13ca-4d37-b613-6bf9fdb045e4)
+![WhatsApp Image 2024-12-10 at 20 44 15_d4ea9e44](https://github.com/user-attachments/assets/d814b9e2-e4e0-4980-aca9-849276b7636c)
 
 # Saving the Model
 The trained model is stored in two formats:<br>
