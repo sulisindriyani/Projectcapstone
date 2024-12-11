@@ -12,11 +12,6 @@ Confusion Matrix of the trained model: <br>
 ![image](https://github.com/user-attachments/assets/26dffc64-e2e9-4b06-8df3-5adc755109ef) 
 
 
-
-# Advanced Recommendation
-Our advanced recommendations use content-based filtering generated from user input data<br>
-![WhatsApp Image 2024-12-10 at 20 44 15_d4ea9e44](https://github.com/user-attachments/assets/d814b9e2-e4e0-4980-aca9-849276b7636c)
-
 # Saving the Model
 The trained model is stored in two formats:<br>
 1. modelstuntingrf.pkl: The model is saved in .pkl format using the joblib.dump(bagging_model, 'modelstuntingrf.pkl') function.<br>
