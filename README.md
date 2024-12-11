@@ -1,5 +1,5 @@
 # Machine Learning Path
-Kiddoshine utilized google colab to predict stunting in children by developing several attributes such as Gender, Age, Birth Weight, Birth Length, Body Weight, Body Length, and Breastfeeding. <br>
+Kiddoshine (prediction of stunting in toddlers) uses google colab to predict stunting in children with data inputted by users, this model develops several attributes such as Gender, Age, Birth Weight, Birth Length, Weight, Length, and Breastfeeding which are processed using a data clarification model that will produce an output of toddler health status (stuning or not stunting).<br>
 
 # Dataset
 The dataset used for training data is Stunting_Dataset.csv which contains the following attributes: Gender, Age, Birth Weight, Birth Length, Body Weight, Body Length, and Breastfeeding.<br>
