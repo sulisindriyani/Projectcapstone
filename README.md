@@ -2,14 +2,21 @@
 Kiddoshine (prediction of stunting in toddlers) uses google colab to predict stunting in children with data inputted by users, this model develops several attributes such as Gender, Age, Birth Weight, Birth Length, Weight, Length, and Breastfeeding which are processed by clarifying the data which will produce an output of toddler health status (stuning or not stunting).<br>
 
 # Dataset
-The dataset used for training data is Stunting_Dataset.csv which contains the following attributes: Gender, Age, Birth Weight, Birth Length, Body Weight, Body Length, and Breastfeeding.<br>
-This dataset was collected from kagle and divided into a training set and a testing set with a ratio of 80:20.<br>
+The data used for our model is in a CSV file named Stunting_Dataset.csv. The file contains attributes such as Gender, Age, Birth Weight, Birth Length, Weight, Length, and Breastfeeding. <br>
+We split the dataset into training and testing sets with a ratio of 80:20 to ensure unbiased evaluation of the model.<br>
 accuracy of the trained model: <br>
 ![image](https://github.com/user-attachments/assets/256e1446-72e2-4d1a-963b-3b4300147edd)
 
 
 Confusion Matrix of the trained model: <br>
 ![image](https://github.com/user-attachments/assets/26dffc64-e2e9-4b06-8df3-5adc755109ef) 
+
+# Requirement
+To run the code in this repository, the following dependencies are required:<br>
+1. TensorFlow (includes Keras)
+2. Pandas
+3. scikit-learn
+4. joblib
 
 
 # Saving the Model
