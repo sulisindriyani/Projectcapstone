@@ -41,7 +41,7 @@ weighted avg       0.84      0.85      0.84      2000 <br>
 # 💾 Saving the Model
 The trained model is stored in two formats:<br>
 1. modelstuntingrf.pkl: The model is saved in .pkl format using the joblib.dump(bagging_model, 'modelstuntingrf.pkl') function.<br>
-( file : https://drive.google.com/file/d/1SlwAl8hsQ75vYxnydWm5TAwEmEetATC5/view?usp=drive_link )<br>
+(https://drive.google.com/file/d/17H3Os49JTFXcqbA2-jCGP2HORsNx0f0Y/view?usp=sharing)<br>
 
 
 
