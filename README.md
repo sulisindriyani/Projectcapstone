@@ -1,33 +1,50 @@
-# Machine Learning Path
+# ⚙️ Machine Learning Path
 Kiddoshine (prediction of stunting in toddlers) uses google colab to predict stunting in children with data inputted by users, this model develops several attributes such as Gender, Age, Birth Weight, Birth Length, Weight, Length, and Breastfeeding which are processed by clarifying the data which will produce an output of toddler health status (stuning or not stunting).<br>
 
-# Dataset
+# 📁 Dataset
 The data used for our model is in a CSV file named Stunting_Dataset.csv. The file contains attributes such as Gender, Age, Birth Weight, Birth Length, Weight, Length, and Breastfeeding. <br>
 We split the dataset into training and testing sets with a ratio of 80:20 to ensure unbiased evaluation of the model.<br>
-accuracy of the trained model: <br>
-![image](https://github.com/user-attachments/assets/256e1446-72e2-4d1a-963b-3b4300147edd)
 
-
-Confusion Matrix of the trained model: <br>
-![image](https://github.com/user-attachments/assets/26dffc64-e2e9-4b06-8df3-5adc755109ef) 
-
-# Requirement
+# 🧰 Requirement
 To run the code in this repository, the following dependencies are required:<br>
-1. TensorFlow (includes Keras)
-2. Pandas
-3. scikit-learn
-4. joblib
+1. TensorFlow (includes Keras).<br>
+2. Pandas.<br>
+3. scikit-learn.<br>
+4. joblib.<br>
+5. Matplotlib.<br>
+6. numpy.<br>
+7. google colab.<br>
+
+# 🧬 Arsitektur Model
+Our model architecture uses the integration of Random Forest with the bagging method to produce a more robust and precise classification model. <br>
+By utilizing 100 trees in Random Forest as well as 10 models in the bagging process, this architecture is designed to handle variability in data and provide more stable results.<br>
+
+#🏋️‍♂️ Training
+Our model was trained using the bagging technique with the command bagging_model.fit(X_train, y_train).<br>
+The training process was performed on the training set (X_train and y_train) by taking random subsets of the data using the bootstrap technique.<br>
+The base model is trained on each subset simultaneously. Once all the base models are trained, their prediction results are combined to improve accuracy and reduce variance. Thus, the models produce more stable and reliable predictions.<br>
+
+#📝 Evaluation
+After training, the model is evaluated on a test set to measure its performance. Following the evaluation of the model before the model is saved, the evaluation is reported:<br>
+Akurasi Model: 0.8425 <br>
+Laporan Klasifikasi:<br>
+              precision    recall  f1-score   support
+
+           0       0.67      0.44      0.54       409
+           1       0.87      0.94      0.91      1591
+
+    accuracy                           0.84      2000
+   macro avg       0.77      0.69      0.72      2000
+weighted avg       0.83      0.84      0.83      2000
 
 
-# Saving the Model
+# 💾 Saving the Model
 The trained model is stored in two formats:<br>
 1. modelstuntingrf.pkl: The model is saved in .pkl format using the joblib.dump(bagging_model, 'modelstuntingrf.pkl') function.<br>
 ( file : https://drive.google.com/file/d/1SlwAl8hsQ75vYxnydWm5TAwEmEetATC5/view?usp=drive_link )<br>
 2. model_stunting.h5: The model is converted into H5 format using the function model.save('model_stunting.h5') <br>
 ( file : https://drive.google.com/file/d/1iJK2vStgPD9GcGu0cyS4dIMMzikvRYQX/view?usp=sharing )<br>
 
-
-Once the model is trained, we then connect the output classified image into a database containing information on stunting prediction. The output will then be the information gathered from the database.<br>
 
 
 
