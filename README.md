@@ -28,14 +28,16 @@ The base model is trained on each subset simultaneously. Once all the base model
 After training, the model is evaluated on a test set to measure its performance. Following the evaluation of the model before the model is saved, the evaluation is reported:<br>
 Akurasi Model: 0.854 <br>
 Laporan Klasifikasi: <br>
-              <br>precision recall f1-score support<br>
+| Kelas | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+|   0   |    0.71   |  0.49  |   0.58   |   409   |
+|   1   |    0.88   |  0.95  |   0.91   |  1591   |
+|       |           |        |          |         |
+| Akurasi |           |        |   0.85   |  2000   |
+| Macro Avg |  0.79   |  0.72  |   0.75   |  2000   |
+| Weighted Avg |  0.84 |  0.85  |   0.84   |  2000   |
 
-           0       0.71      0.49      0.58       409
-           1       0.88      0.95      0.91      1591
-
-    accuracy                           0.85      2000
-   macro avg       0.79      0.72      0.75      2000 <br>
-weighted avg       0.84      0.85      0.84      2000 <br>
+           
 
 
 # 💾 Saving the Model
