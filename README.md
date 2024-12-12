@@ -26,7 +26,7 @@ The base model is trained on each subset simultaneously. Once all the base model
 
 # 📝 Evaluation
 After training, the model is evaluated on a test set to measure its performance. Following the evaluation of the model before the model is saved, the evaluation is reported:<br>
-Akurasi Model: 0.854
+Akurasi Model: 0.854 <br>
 Laporan Klasifikasi:
               precision    recall  f1-score   support
 
