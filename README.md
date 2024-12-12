@@ -43,8 +43,6 @@ weighted avg       0.83      0.84      0.83      2000
 The trained model is stored in two formats:<br>
 1. modelstuntingrf.pkl: The model is saved in .pkl format using the joblib.dump(bagging_model, 'modelstuntingrf.pkl') function.<br>
 ( file : https://drive.google.com/file/d/1SlwAl8hsQ75vYxnydWm5TAwEmEetATC5/view?usp=drive_link )<br>
-2. model_stunting.h5: The model is converted into H5 format using the function model.save('model_stunting.h5') <br>
-( file : https://drive.google.com/file/d/1iJK2vStgPD9GcGu0cyS4dIMMzikvRYQX/view?usp=sharing )<br>
 
 
 
