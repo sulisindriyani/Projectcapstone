@@ -19,12 +19,12 @@ To run the code in this repository, the following dependencies are required:<br>
 Our model architecture uses the integration of Random Forest with the bagging method to produce a more robust and precise classification model. <br>
 By utilizing 100 trees in Random Forest as well as 10 models in the bagging process, this architecture is designed to handle variability in data and provide more stable results.<br>
 
-#🏋️‍♂️ Training
+# 🏋️‍♂️ Training
 Our model was trained using the bagging technique with the command bagging_model.fit(X_train, y_train).<br>
 The training process was performed on the training set (X_train and y_train) by taking random subsets of the data using the bootstrap technique.<br>
 The base model is trained on each subset simultaneously. Once all the base models are trained, their prediction results are combined to improve accuracy and reduce variance. Thus, the models produce more stable and reliable predictions.<br>
 
-#📝 Evaluation
+# 📝 Evaluation
 After training, the model is evaluated on a test set to measure its performance. Following the evaluation of the model before the model is saved, the evaluation is reported:<br>
 Akurasi Model: 0.8425 <br>
 Laporan Klasifikasi:<br>
